@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D53818F32C877D8200E80AF7 /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53818F22C877D8200E80AF7 /* ViewModifier.swift */; };
+		D53818F62C877ECD00E80AF7 /* DoctorsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53818F52C877ECD00E80AF7 /* DoctorsCard.swift */; };
+		D5550C382C75C81C0046D753 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5550C372C75C81C0046D753 /* PriceView.swift */; };
+		D5550C3B2C75FD9B0046D753 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5550C3A2C75FD9B0046D753 /* DataManager.swift */; };
+		D5550C452C7614250046D753 /* 655b754e0574da7622c94aa4.json in Resources */ = {isa = PBXBuildFile; fileRef = D5550C442C7614250046D753 /* 655b754e0574da7622c94aa4.json */; };
+		D5550C492C761AA80046D753 /* JsonTest.json in Resources */ = {isa = PBXBuildFile; fileRef = D5550C482C761AA80046D753 /* JsonTest.json */; };
+		D5550C4C2C7873510046D753 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D5550C4B2C7873510046D753 /* SDWebImage */; };
+		D5550C4E2C7873510046D753 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D5550C4D2C7873510046D753 /* SDWebImageMapKit */; };
+		D5550C512C7874A00046D753 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D5550C502C7874A00046D753 /* SDWebImageSwiftUI */; };
+		D5864DF32C728F5400B68554 /* testAzatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5864DF22C728F5400B68554 /* testAzatApp.swift */; };
+		D5864DF52C728F5400B68554 /* DoctorsChoise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5864DF42C728F5400B68554 /* DoctorsChoise.swift */; };
+		D5864DF72C728F5700B68554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5864DF62C728F5700B68554 /* Assets.xcassets */; };
+		D5864DFA2C728F5700B68554 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5864DF92C728F5700B68554 /* Preview Assets.xcassets */; };
+		D5864E022C732BC700B68554 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5864E012C732BC700B68554 /* Model.swift */; };
+		D5864E052C732CAE00B68554 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5864E042C732CAE00B68554 /* ViewModel.swift */; };
+		D5864E0A2C736AC900B68554 /* AppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5864E092C736AC900B68554 /* AppointmentView.swift */; };
+		D5864E0C2C736AEA00B68554 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5864E0B2C736AEA00B68554 /* ChatView.swift */; };
+		D5864E102C736B5800B68554 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5864E0F2C736B5800B68554 /* ProfileView.swift */; };
+		D5864E122C736B8D00B68554 /* TabDoctorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5864E112C736B8D00B68554 /* TabDoctorsView.swift */; };
+		D5864E152C736FAD00B68554 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5864E142C736FAD00B68554 /* Card.swift */; };
+		D5864E172C73749700B68554 /* SortBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5864E162C73749700B68554 /* SortBtn.swift */; };
+		D5A7D9442CAA8E8C008CF313 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D5A7D9432CAA8E8C008CF313 /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D53818F22C877D8200E80AF7 /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
+		D53818F52C877ECD00E80AF7 /* DoctorsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsCard.swift; sourceTree = "<group>"; };
+		D5550C372C75C81C0046D753 /* PriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
+		D5550C3A2C75FD9B0046D753 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		D5550C442C7614250046D753 /* 655b754e0574da7622c94aa4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 655b754e0574da7622c94aa4.json; sourceTree = "<group>"; };
+		D5550C482C761AA80046D753 /* JsonTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JsonTest.json; sourceTree = "<group>"; };
+		D5864DEF2C728F5400B68554 /* testAzat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testAzat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5864DF22C728F5400B68554 /* testAzatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAzatApp.swift; sourceTree = "<group>"; };
+		D5864DF42C728F5400B68554 /* DoctorsChoise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsChoise.swift; sourceTree = "<group>"; };
+		D5864DF62C728F5700B68554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5864DF92C728F5700B68554 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5864E012C732BC700B68554 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D5864E042C732CAE00B68554 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D5864E092C736AC900B68554 /* AppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentView.swift; sourceTree = "<group>"; };
+		D5864E0B2C736AEA00B68554 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		D5864E0F2C736B5800B68554 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D5864E112C736B8D00B68554 /* TabDoctorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabDoctorsView.swift; sourceTree = "<group>"; };
+		D5864E142C736FAD00B68554 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		D5864E162C73749700B68554 /* SortBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortBtn.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5864DEC2C728F5400B68554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A7D9442CAA8E8C008CF313 /* SDWebImageSwiftUI in Frameworks */,
+				D5550C512C7874A00046D753 /* SDWebImageSwiftUI in Frameworks */,
+				D5550C4E2C7873510046D753 /* SDWebImageMapKit in Frameworks */,
+				D5550C4C2C7873510046D753 /* SDWebImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D53818F42C877EA900E80AF7 /* DoctorsCard */ = {
+			isa = PBXGroup;
+			children = (
+				D53818F52C877ECD00E80AF7 /* DoctorsCard.swift */,
+			);
+			path = DoctorsCard;
+			sourceTree = "<group>";
+		};
+		D5550C392C75C8270046D753 /* PriceView */ = {
+			isa = PBXGroup;
+			children = (
+				D5550C372C75C81C0046D753 /* PriceView.swift */,
+			);
+			path = PriceView;
+			sourceTree = "<group>";
+		};
+		D5550C522C8318990046D753 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				D53818F22C877D8200E80AF7 /* ViewModifier.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		D5864DE62C728F5400B68554 = {
+			isa = PBXGroup;
+			children = (
+				D5864DF12C728F5400B68554 /* testAzat */,
+				D5864DF02C728F5400B68554 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5864DF02C728F5400B68554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5864DEF2C728F5400B68554 /* testAzat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5864DF12C728F5400B68554 /* testAzat */ = {
+			isa = PBXGroup;
+			children = (
+				D5550C522C8318990046D753 /* ViewModifier */,
+				D5864E062C732E5800B68554 /* View */,
+				D5864E032C732C9D00B68554 /* ViewModel */,
+				D5864E002C732BB800B68554 /* Model */,
+				D5864DF22C728F5400B68554 /* testAzatApp.swift */,
+				D5864DF62C728F5700B68554 /* Assets.xcassets */,
+				D5864DF82C728F5700B68554 /* Preview Content */,
+				D5550C3A2C75FD9B0046D753 /* DataManager.swift */,
+				D5550C442C7614250046D753 /* 655b754e0574da7622c94aa4.json */,
+				D5550C482C761AA80046D753 /* JsonTest.json */,
+			);
+			path = testAzat;
+			sourceTree = "<group>";
+		};
+		D5864DF82C728F5700B68554 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5864DF92C728F5700B68554 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5864E002C732BB800B68554 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5864E012C732BC700B68554 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D5864E032C732C9D00B68554 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D5864E042C732CAE00B68554 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D5864E062C732E5800B68554 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D53818F42C877EA900E80AF7 /* DoctorsCard */,
+				D5550C392C75C8270046D753 /* PriceView */,
+				D5864E132C736F8B00B68554 /* DoctorsChoise */,
+				D5864E092C736AC900B68554 /* AppointmentView.swift */,
+				D5864E0B2C736AEA00B68554 /* ChatView.swift */,
+				D5864E0F2C736B5800B68554 /* ProfileView.swift */,
+				D5864E112C736B8D00B68554 /* TabDoctorsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D5864E132C736F8B00B68554 /* DoctorsChoise */ = {
+			isa = PBXGroup;
+			children = (
+				D5864DF42C728F5400B68554 /* DoctorsChoise.swift */,
+				D5864E142C736FAD00B68554 /* Card.swift */,
+				D5864E162C73749700B68554 /* SortBtn.swift */,
+			);
+			path = DoctorsChoise;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5864DEE2C728F5400B68554 /* testAzat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5864DFD2C728F5700B68554 /* Build configuration list for PBXNativeTarget "testAzat" */;
+			buildPhases = (
+				D5864DEB2C728F5400B68554 /* Sources */,
+				D5864DEC2C728F5400B68554 /* Frameworks */,
+				D5864DED2C728F5400B68554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testAzat;
+			packageProductDependencies = (
+				D5550C4B2C7873510046D753 /* SDWebImage */,
+				D5550C4D2C7873510046D753 /* SDWebImageMapKit */,
+				D5550C502C7874A00046D753 /* SDWebImageSwiftUI */,
+				D5A7D9432CAA8E8C008CF313 /* SDWebImageSwiftUI */,
+			);
+			productName = testAzat;
+			productReference = D5864DEF2C728F5400B68554 /* testAzat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5864DE72C728F5400B68554 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D5864DEE2C728F5400B68554 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = D5864DEA2C728F5400B68554 /* Build configuration list for PBXProject "testAzat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5864DE62C728F5400B68554;
+			packageReferences = (
+				D5550C4A2C7873510046D753 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				D5550C4F2C78749F0046D753 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = D5864DF02C728F5400B68554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5864DEE2C728F5400B68554 /* testAzat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5864DED2C728F5400B68554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5550C452C7614250046D753 /* 655b754e0574da7622c94aa4.json in Resources */,
+				D5864DFA2C728F5700B68554 /* Preview Assets.xcassets in Resources */,
+				D5864DF72C728F5700B68554 /* Assets.xcassets in Resources */,
+				D5550C492C761AA80046D753 /* JsonTest.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5864DEB2C728F5400B68554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5864E102C736B5800B68554 /* ProfileView.swift in Sources */,
+				D5864E022C732BC700B68554 /* Model.swift in Sources */,
+				D5864DF52C728F5400B68554 /* DoctorsChoise.swift in Sources */,
+				D5864E0C2C736AEA00B68554 /* ChatView.swift in Sources */,
+				D5864E122C736B8D00B68554 /* TabDoctorsView.swift in Sources */,
+				D53818F62C877ECD00E80AF7 /* DoctorsCard.swift in Sources */,
+				D53818F32C877D8200E80AF7 /* ViewModifier.swift in Sources */,
+				D5864E052C732CAE00B68554 /* ViewModel.swift in Sources */,
+				D5864E0A2C736AC900B68554 /* AppointmentView.swift in Sources */,
+				D5864E172C73749700B68554 /* SortBtn.swift in Sources */,
+				D5550C382C75C81C0046D753 /* PriceView.swift in Sources */,
+				D5864E152C736FAD00B68554 /* Card.swift in Sources */,
+				D5550C3B2C75FD9B0046D753 /* DataManager.swift in Sources */,
+				D5864DF32C728F5400B68554 /* testAzatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5864DFB2C728F5700B68554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5864DFC2C728F5700B68554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5864DFE2C728F5700B68554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"testAzat/Preview Content\"";
+				DEVELOPMENT_TEAM = P4F878Z7A8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.testAzat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5864DFF2C728F5700B68554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"testAzat/Preview Content\"";
+				DEVELOPMENT_TEAM = P4F878Z7A8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.testAzat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5864DEA2C728F5400B68554 /* Build configuration list for PBXProject "testAzat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5864DFB2C728F5700B68554 /* Debug */,
+				D5864DFC2C728F5700B68554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5864DFD2C728F5700B68554 /* Build configuration list for PBXNativeTarget "testAzat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5864DFE2C728F5700B68554 /* Debug */,
+				D5864DFF2C728F5700B68554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5550C4A2C7873510046D753 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.7;
+			};
+		};
+		D5550C4F2C78749F0046D753 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5550C4B2C7873510046D753 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5550C4A2C7873510046D753 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		D5550C4D2C7873510046D753 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5550C4A2C7873510046D753 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		D5550C502C7874A00046D753 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5550C4F2C78749F0046D753 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		D5A7D9432CAA8E8C008CF313 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5550C4F2C78749F0046D753 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D5864DE72C728F5400B68554 /* Project object */;
+}
