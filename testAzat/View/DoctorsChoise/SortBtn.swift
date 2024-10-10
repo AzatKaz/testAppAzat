@@ -15,7 +15,7 @@ struct SortBtn: View {
         HStack (spacing: 1) {
             Button(action: {
                 viewModel.firstBtnSelected = true
-                viewModel.firstBtnToggle = true
+                viewModel.firstBtnToggle.toggle()
                 viewModel.secondBtnSelected = false
                 viewModel.thirdBtnSelected = false
                 viewModel.random = false
@@ -23,8 +23,12 @@ struct SortBtn: View {
                 Text("По цене") 
                     .foregroundStyle(viewModel.firstBtnSelected ? .white : .gray)
                     .font(.system(size: 14))
-                if viewModel.firstBtnSelected == true {
+                if viewModel.firstBtnToggle == true {
                     Image(systemName: "arrowshape.up.fill")
+                        .resizable()
+                        .modifier(SortBtnTextModifier())
+                } else {
+                    Image(systemName: "arrowshape.down.fill")
                         .resizable()
                         .modifier(SortBtnTextModifier())
                 }
@@ -32,19 +36,21 @@ struct SortBtn: View {
             .modifier(SortBtnModifier(backgrColor: viewModel.firstBtnSelected ? .pinkApp : .white))
 
             Button(action: {
-                if viewModel.secondBtnSelected == true {
-                    viewModel.secondBtnToggle.toggle()
-                } else {
-                    viewModel.firstBtnSelected = false
-                    viewModel.secondBtnSelected = true
-                    viewModel.thirdBtnSelected = false
-                    viewModel.random = false
-                }
+                viewModel.secondBtnToggle.toggle()
+                viewModel.firstBtnSelected = false
+                viewModel.secondBtnSelected = true
+                viewModel.thirdBtnSelected = false
+                viewModel.random = false
+                
             }) {
                 Text("По стажу") .foregroundStyle(viewModel.secondBtnSelected ? .white : .gray)
                     .font(.system(size: 14))
-                if viewModel.secondBtnSelected == true {
+                if viewModel.secondBtnToggle == true {
                     Image(systemName: "arrowshape.up.fill")
+                        .resizable()
+                        .modifier(SortBtnTextModifier())
+                }  else {
+                    Image(systemName: "arrowshape.down.fill")
                         .resizable()
                         .modifier(SortBtnTextModifier())
                 }
@@ -53,19 +59,20 @@ struct SortBtn: View {
             .modifier(SortBtnModifier(backgrColor: viewModel.secondBtnSelected ? .pinkApp : .white))
             
             Button(action: {
-                if viewModel.thirdBtnSelected == true {
                     viewModel.thirdBtnToggle.toggle()
-                } else {
                     viewModel.firstBtnSelected = false
                     viewModel.secondBtnSelected = false
                     viewModel.thirdBtnSelected = true
                     viewModel.random = false
-                }
             }) {
                 Text("По рейтингу") .foregroundStyle(viewModel.thirdBtnSelected ? .white : .gray)
                     .font(.system(size: 14))
-                if viewModel.thirdBtnSelected == true {
+                if viewModel.thirdBtnToggle == true {
                     Image(systemName: "arrowshape.up.fill")
+                        .resizable()
+                        .modifier(SortBtnTextModifier())
+                }  else {
+                    Image(systemName: "arrowshape.down.fill")
                         .resizable()
                         .modifier(SortBtnTextModifier())
                 }

@@ -14,7 +14,7 @@ struct Card: View {
     
     var body: some View {
        
-        NavigationStack {
+       // NavigationStack {
             VStack(alignment: .leading, spacing: 15) {
                 HStack(alignment: .top, spacing: 16) {
                     if model.avatar != nil {
@@ -109,7 +109,7 @@ struct Card: View {
             .frame(width: UIScreen.main.bounds.width - 32)
             .background(Color.white)
             .clipShape(RoundedRectangle(cornerRadius: 10))
-        }
+       // }
         .onAppear {
             name = model.specialization.first?.name ?? ""
         }
