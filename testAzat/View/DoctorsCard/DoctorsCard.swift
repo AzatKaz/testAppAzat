@@ -14,7 +14,6 @@ struct DoctorsCard: View {
     @State var university: String = ""
 
     var body: some View {
-       // NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
                     HStack(spacing: 16) {
@@ -110,7 +109,6 @@ struct DoctorsCard: View {
             .navigationTitle("Педиатр")
             .navigationBarTitleDisplayMode(.inline)
             
-       // }
         .onAppear {
             university = model.higher_education.first?.university ?? ""
             organization = model.work_expirience.first?.position ?? ""
